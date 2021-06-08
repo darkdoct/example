@@ -1,3 +1,5 @@
+import ByteShortIntLong.Numbers;
+
 public class Hello {
 
     public static void main(String[] args) {
@@ -11,6 +13,11 @@ public class Hello {
         System.out.println("myTotal: " + myTotal);
         int myLastOne = 1000 - myTotal;
         System.out.println("myLastOne: " + myLastOne);
-        
+        Numbers obj = new Numbers();
+
+        System.out.println("Integer Minimum Value: " + obj.myMinIntValue);
+        System.out.println("Integer Maximum Value: " + obj.myMaxIntValue);
+        System.out.println("Overflow MAX value + 1: " + (obj.myMaxIntValue + 1));
+        System.out.println("Underflow MIN value - 1: " + (obj.myMinIntValue -1 ));
     }
 }
