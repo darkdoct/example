@@ -15,9 +15,15 @@ public class Hello {
         System.out.println("myLastOne: " + myLastOne);
         Numbers obj = new Numbers();
 
-        System.out.println("Integer Minimum Value: " + obj.myMinIntValue);
-        System.out.println("Integer Maximum Value: " + obj.myMaxIntValue);
+        System.out.println("32 bit Integer Minimum Value: " + obj.myMinIntValue);
+        System.out.println("32 bit Integer Maximum Value: " + obj.myMaxIntValue);
         System.out.println("Overflow MAX value + 1: " + (obj.myMaxIntValue + 1));
         System.out.println("Underflow MIN value - 1: " + (obj.myMinIntValue -1 ));
+        System.out.println("8 bit Byte Maximum Value: " + obj.myMaxByteValue);
+        System.out.println("8 bit Byte Minimum Value: " + obj.myMinByteValue);
+        System.out.println("16 bit Short Maximum Value: " + obj.myMaxShortValue);
+        System.out.println("16 bit Short Minimum Value: " + obj.myMinShortValue);
+        System.out.println("64 bit Long Maximum Value: " + obj.myMaxLongValue);
+        System.out.println("64 bit Long Minimum Value: " + obj.myMinLongValue);
     }
 }
