@@ -10,5 +10,7 @@ public class Numbers {
 
     public long myMaxLongValue = Long.MAX_VALUE;
     public long myMinLongValue = Long.MIN_VALUE;
+    public byte myNewByteValue = (byte)(myMinByteValue/2);
+    public short myNewShortValue = (short) (myMinShortValue /2);
 
 }
